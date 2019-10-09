@@ -10,7 +10,7 @@ public class FiboTest {
     @Test
     public void calculationResult() {
         int in = 6;
-        int expected = 8;
+        BigInteger expected = new BigInteger("8");
         BigInteger out = new Fibo().calculationResult(in);
         Assert.assertEquals(expected, out);
     }
